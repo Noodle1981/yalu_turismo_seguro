@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yalu - Alquileres Seguros en San Juan</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="top-bar bg-light py-1 text-secondary small">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div>
+                <i class="bi bi-envelope-fill me-1"></i> <a href="mailto:validar@yalu.com.ar"
+                    class="text-secondary text-decoration-none">validar@yalu.com.ar</a>
+                <span class="mx-2">|</span>
+                <i class="bi bi-telephone-fill me-1"></i> 264 450 3704
+            </div>
+            <div>
+                <a href="#" class="text-secondary me-2"><i class="bi bi-facebook fs-5"></i></a>
+                <a href="#" class="text-secondary me-2"><i class="bi bi-instagram fs-5"></i></a>
+                <a href="#" class="text-secondary"><i class="bi bi-youtube fs-5"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="#">
+                    <span class="logo-ya">YA</span><span class="logo-lu">LU</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#nosotros">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#servicios">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#paquetes">Ofertas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contacto</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownLogin" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Iniciar Sesión
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownLogin">
+                                <li><a class="dropdown-item" href="#">Propietarios</a></li>
+                                <li><a class="dropdown-item" href="#">Usuarios</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero-section">
+            <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/img/carousel-1a.jpg" class="d-block w-100 hero-img"
+                            alt="Paisaje de montaña en San Juan">
+                        <div class="carousel-caption d-none d-md-block text-start">
+                            <p class="text-uppercase small-title">ALQUILERES TEMPORARIOS – OFERTAS SAN JUAN</p>
+                            <h1 class="display-4 fw-bold">Descubre la nueva forma segura de descansar</h1>
+                        </div>
+                        <div class="carousel-caption-mobile d-block d-md-none text-center p-3">
+                            <p class="text-uppercase small-title-mobile">ALQUILERES TEMPORARIOS – OFERTAS SAN JUAN</p>
+                            <h2 class="fw-bold h4">Descubre la nueva forma segura de descansar</h2>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/img/carousel-2b.jpg" class="d-block w-100 hero-img"
+                            alt="Paisaje del Dique de Ullum en San Juan">
+                        <div class="carousel-caption d-none d-md-block text-start">
+                            <p class="text-uppercase small-title">NUEVAS METODOLOGÍAS DE PROMOCIÓN TURÍSTICA</p>
+                            <h1 class="display-4 fw-bold">Ofertas validadas para evitar estafas</h1>
+                        </div>
+                        <div class="carousel-caption-mobile d-block d-md-none text-center p-3">
+                            <p class="text-uppercase small-title-mobile">NUEVAS METODOLOGÍAS DE PROMOCIÓN TURÍSTICA</p>
+                            <h2 class="fw-bold h4">Ofertas validadas para evitar estafas</h2>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <section id="nosotros" class="py-5">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="section-title fw-bold">Somos el primer portal turístico de San Juan enfocados a ofrecer
+                        ofertas seguras y serias</h2>
+                </div>
+                <div class="row align-items-center gx-lg-5">
+                    <div class="col-lg-7 order-lg-2 position-relative mb-4 mb-lg-0">
+                        <div class="about-images-container">
+                            <img src="/img/about b" class="img-fluid rounded shadow-lg about-img-large"
+                                alt="Cielo estrellado en Pampa del Leoncito">
+                            <div class="about-small-images">
+                                <img src="/img/about-1b.jpg" class="img-fluid rounded shadow mb-3 about-img-small"
+                                    alt="El Hongo, Valle de la Luna">
+                                <img src="/img/about-2b.jpg" class="img-fluid rounded shadow about-img-small"
+                                    alt="Dique Cuesta del Viento, Iglesias">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 order-lg-1">
+                        <p class="section-title fw-bold">El formato de sitio está pensado para ofrecer las ofertas de
+                            los verdaderos propietarios a los interesados, nos aseguramos que para el cliente final,
+                            sean ofertas existentes y validadas, nuestro objetivo es promover el turismo seguro.</p>
+                        <p class="section-title fw-bold">En Yalu, conectamos directamente a viajeros con propietarios
+                            verificados, eliminando intermediarios y reduciendo el riesgo de fraudes. Tu tranquilidad es
+                            nuestra prioridad.</p>
+                    </div>
+                </div>
+
+                <div class="row mt-5 pt-4 text-center">
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 shadow-sm border-0 feature-card">
+                            <div class="card-body">
+                                <i class="bi bi-tags-fill display-4 text-accent mb-3"></i>
+                                <h5 class="card-title fw-bold">Precios Competitivos</h5>
+                                <p class="card-text text-secondary">Los precios los disponen los propietarios para sus
+                                    ofertas, generando una amplia gamas de precios competitivos para todo tipo de
+                                    usuarios que quieran alquilar.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 shadow-sm border-0 feature-card">
+                            <div class="card-body">
+                                <i class="bi bi-shield-check display-4 text-accent mb-3"></i>
+                                <h5 class="card-title fw-bold">Mejores Servicios</h5>
+                                <p class="card-text text-secondary">Además de muchos tipos de ofertas, Yalu contará con
+                                    el servicio más importante: la seguridad de llegar al destino sin miedo a estafa.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 shadow-sm border-0 feature-card">
+                            <div class="card-body">
+                                <i class="bi bi-globe-americas display-4 text-accent mb-3"></i>
+                                <h5 class="card-title fw-bold">Un mundo de posibilidades</h5>
+                                <p class="card-text text-secondary">Queremos que todos puedan ofertar, para que todos
+                                    puedan alquilar. Ampliando el alcance del turismo en San Juan.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicios" class="py-5 bg-light">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="section-title fw-bold">Nuestras innovaciones para la tranquilidad de tu descanso</h2>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 shadow-sm border-0 service-card">
+                            <div class="card-body p-4">
+                                <div class="icon-square bg-accent-light text-accent mb-3">
+                                    <i class="bi bi-geo-alt-fill fs-1"></i>
+                                </div>
+                                <h5 class="card-title fw-bold">Localizaciones Verificadas</h5>
+                                <p class="card-text text-secondary small">Información sobre las ubicaciones de las
+                                    ofertas, con coordenadas GPS extraídas de metadatos para confirmar su existencia
+                                    real.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 shadow-sm border-0 service-card">
+                            <div class="card-body p-4">
+                                <div class="icon-square bg-accent-light text-accent mb-3">
+                                    <i class="bi bi-qr-code-scan fs-1"></i>
+                                </div>
+                                <h5 class="card-title fw-bold">Seguridad Digital</h5>
+                                <p class="card-text text-secondary small">Implementamos medidas de seguridad como
+                                    códigos QR o identificadores únicos en el sitio para reafirmar que la oferta que ves
+                                    es la que visitas.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 shadow-sm border-0 service-card">
+                            <div class="card-body p-4">
+                                <div class="icon-square bg-accent-light text-accent mb-3">
+                                    <i class="bi bi-patch-check-fill fs-1"></i>
+                                </div>
+                                <h5 class="card-title fw-bold">Ofertas Validadas</h5>
+                                <p class="card-text text-secondary small">Todas las ofertas marcadas como "Validadas"
+                                    han pasado un proceso de verificación, con información detallada sobre el lugar y el
+                                    propietario.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="paquetes" class="py-5">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="section-title fw-bold">Explora nuestras Ofertas por Departamento</h2>
+                    <p class="text-secondary lead">Encuentra el lugar perfecto en la región que prefieras.</p>
+                </div>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+                    <script>
+                        const departamentos = ["Capital", "Rawson", "Chimbas", "Rivadavia", "Santa Lucía", "Pocito", "Caucete", "Jáchal", "Albardón", "Sarmiento", "Ullum", "Zonda", "Iglesia", "Valle Fértil", "Calingasta", "9 de Julio", "San Martín", "Angaco", "25 de Mayo"];
+
+                        // Array con las rutas de las imágenes (asegurarse que el orden coincida con 'departamentos')
+                        // Editar rutas para que apunten a tus imágenes en 'img/departamentos/'
+                        const departamentoImagenes = [
+                            "img/departamentos/capital.jpg",
+                            "img/departamentos/rawson.jpg",
+                            "img/departamentos/chimbas.jpg",
+                            "img/departamentos/rivadavia.jpg",
+                            "img/departamentos/santa_lucia.jpg",
+                            "img/departamentos/pocito.jpg",
+                            "img/departamentos/caucete.jpg",
+                            "img/departamentos/jachal.jpg",
+                            "img/departamentos/albardon.jpg",
+                            "img/departamentos/sarmiento.jpg",
+                            "img/departamentos/ullum.jpg",
+                            "img/departamentos/zonda.jpg",
+                            "img/departamentos/iglesia.jpg",
+                            "img/departamentos/valle_fertil.jpg",
+                            "img/departamentos/calingasta.jpg",
+                            "img/departamentos/9_de_julio.jpg",
+                            "img/departamentos/san_martin.jpg",
+                            "img/departamentos/angaco.jpg",
+                            "img/departamentos/25_de_mayo.jpg"
+                            // Debe haber 19 rutas, una para cada departamento.
+                        ];
+
+                        const container = document.querySelector('#paquetes .row.g-4'); // Seleccionamos el contenedor
+
+                        if (container) {
+                            if (departamentos.length !== departamentoImagenes.length) {
+                                console.warn("Advertencia: La cantidad de departamentos y de imágenes no coincide. Se usarán imágenes por defecto donde falten.");
+                            }
+
+                            for (let i = 0; i < departamentos.length; i++) {
+                                const deptoNombre = departamentos[i];
+
+                                // --- CAMBIO AQUÍ: Número de ofertas fijo ---
+                                const numOfertas = 100; // Valor fijo representativo para todas las tarjetas
+
+                                // Obtiene la ruta de la imagen específica o una por defecto
+                                const imagenSrc = departamentoImagenes[i] || "img/departamentos/default.jpg";
+
+                                // Genera el HTML de la tarjeta
+                                const cardHTML = `
+                                <div class="col">
+                                    <div class="card h-100 shadow-sm offer-card border-0 overflow-hidden">
+                                        <img src="${imagenSrc}" class="card-img-top offer-card-img" alt="Paisaje representativo de ${deptoNombre}">
+                                        <div class="card-body text-center">
+                                            <h6 class="card-title fw-bold mb-1">${deptoNombre}</h6>
+                                            {/* Muestra el valor fijo de numOfertas */}
+                                            <p class="card-text text-accent fw-bold">${numOfertas} Ofertas</p>
+                                        </div>
+                                        <a href="#" class="stretched-link" aria-label="Ver ofertas en ${deptoNombre}"></a>
+                                    </div>
+                                </div>`;
+                                container.innerHTML += cardHTML; // Agregamos la tarjeta al HTML
+                            }
+                        } else {
+                            console.error("El contenedor para las tarjetas de ofertas no fue encontrado.");
+                        }
+                    </script>
+                    <noscript>
+                        <div class="col">
+                            <div class="card h-100 shadow-sm offer-card border-0 overflow-hidden">
+                                <img src="https://via.placeholder.com/300x200/A0A0A0/FFFFFF?text=Paisaje+Ejemplo"
+                                    class="card-img-top offer-card-img" alt="Paisaje representativo">
+                                <div class="card-body text-center">
+                                    <h6 class="card-title fw-bold mb-1">Ejemplo Departamento</h6>
+                                    <p class="card-text text-accent fw-bold">Ver Ofertas</p>
+                                </div>
+                                <a href="#" class="stretched-link" aria-label="Ver ofertas de ejemplo"></a>
+                            </div>
+                        </div>
+                        <p class="col-12 text-danger">Se requiere JavaScript para mostrar todas las ofertas
+                            departamentales.</p>
+                    </noscript>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="py-5 bg-light">
+            <div class="container text-center">
+                <h2 class="section-title fw-bold mb-3">Ponte en Contacto</h2>
+                <p class="lead text-secondary mb-4">Estamos aquí para ayudarte. Si tienes dudas o necesitas más
+                    información, no dudes en contactarnos.</p>
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <p><i class="bi bi-envelope-fill text-accent me-2"></i> Email: <a
+                                href="mailto:validar@yalu.com.ar"
+                                class="text-decoration-none text-secondary">validar@yalu.com.ar</a></p>
+                        <p><i class="bi bi-telephone-fill text-accent me-2"></i> Teléfono: 264 450 3704</p>
+                        <div class="mt-4">
+                            <p class="mb-2 fw-bold">Síguenos en redes sociales:</p>
+                            <a href="#" class="text-secondary me-3 fs-4"><i class="bi bi-facebook"></i></a>
+                            <a href="#" class="text-secondary me-3 fs-4"><i class="bi bi-instagram"></i></a>
+                            <a href="#" class="text-secondary fs-4"><i class="bi bi-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <p class="mb-0 small">&copy; <span id="current-year"></span> Yalu. Todos los derechos reservados.
+                    </p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <a href="#" class="text-white-50 me-3 small text-decoration-none">Política de Privacidad</a>
+                    <a href="#" class="text-white-50 small text-decoration-none">Términos de Uso</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
